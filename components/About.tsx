@@ -6,15 +6,15 @@ const About: React.FC = () => {
             <div className="max-w-5xl mx-auto lg:py-8 p-6 lg:px-16 rounded-xl border-neutral-700 border">
                 <h2 className="text-3xl font-bold mb-4 text-center">About Me</h2>
                 <p className="leading-relaxed text-justify mx-auto text-base xl:text-lg">
-                    I am a highly motivated and skilled full-stack developer with a strong foundation in <b> artificial intelligence and machine learning </b>, currently pursuing a B.E. at Ramaiah Institute of Technology with an exceptional CGPA of <b>
+                    I am a skilled full-stack developer with a strong foundation in <b> artificial intelligence and machine learning </b>,  pursuing a B.E. at Ramaiah Institute of Technology with a CGPA of <b>
 
-                        9.5/10  </b>. Proficient in a wide range of programming languages and frameworks, including <b>
-                        React, Next.js, TypeScript, Python, and Node.js </b> , I specialize in building robust and scalable web applications.
+                        9.5/10  </b>. Proficient in  <b>
+                        React, Next.js, TypeScript, Python, and Node.js </b> , I specialize in building robust web applications.
                     <br />
                     <br />
-                    My expertise spans frontend and backend development, with a proven track record of delivering innovative projects such as Regal Estate, a full-stack real estate platform, and Bytes, a blogging web application inspired by Medium. I have also gained valuable industry experience through my internship at <b>Larsen & Toubro Defence</b>, where I worked on synthetic data generation, real-time algorithm optimization, and advanced denoising techniques for predictive maintenance.
+                    My portfolio includes innovative projects like Regal Estate, a real estate platform, and Bytes, a Medium-inspired blogging app. At <b>Larsen & Toubro Defence</b>, I gained valuable experience in synthetic data generation, real-time optimization, and advanced denoising techniques for predictive maintenance.
                     <br />  <br />
-                    Committed to continuous learning and innovation, I bring a blend of technical proficiency, problem-solving abilities, and collaborative skills, making me an asset to any development team.
+                    Committed to continuous learning and innovation, I bring technical expertise, problem-solving skills, and a passion for innovation to every project I undertake.
                 </p>
             </div>
         </section>
