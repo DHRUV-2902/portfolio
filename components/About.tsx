@@ -2,7 +2,7 @@ import React from 'react';
 
 const About: React.FC = () => {
     return (
-        <section className="text-zinc-300 mt-8 mb-24 px-12">
+        <section className="text-zinc-300 my-24 px-12">
             <div className="max-w-5xl mx-auto lg:py-8 p-6 lg:px-16 rounded-xl border-neutral-700 border">
                 <h2 className="text-3xl font-bold mb-4 text-center">About Me</h2>
                 <p className="leading-relaxed text-justify mx-auto text-base xl:text-lg">

@@ -24,8 +24,8 @@ const DownloadResume: React.FC = () => {
       onClick={handleDownload}
       title="Download CV"
     >
-      <div className="flex items-center">
-        <IoCloudDownloadOutline className="mr-2 text-base lg:text-xl" />
+      <div className="flex items-center text-sm lg:text-base 3xl:text-lg">
+        <IoCloudDownloadOutline className="mr-2 " />
         <span>Download CV</span>
       </div>
     </button>
