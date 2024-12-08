@@ -2,10 +2,10 @@ import React from 'react';
 
 const About: React.FC = () => {
     return (
-        <section className="py-12 text-zinc-300 my-8">
-            <div className="w-2/3 mx-auto py-8 px-16 rounded-xl border-neutral-700 border">
+        <section className="text-zinc-300 mt-8 mb-24 px-12">
+            <div className="max-w-5xl mx-auto lg:py-8 p-6 lg:px-16 rounded-xl border-neutral-700 border">
                 <h2 className="text-3xl font-bold mb-4 text-center">About Me</h2>
-                <p className="leading-relaxed text-justify mx-auto">
+                <p className="leading-relaxed text-justify mx-auto text-base xl:text-lg">
                     I am a highly motivated and skilled full-stack developer with a strong foundation in <b> artificial intelligence and machine learning </b>, currently pursuing a B.E. at Ramaiah Institute of Technology with an exceptional CGPA of <b>
 
                         9.5/10  </b>. Proficient in a wide range of programming languages and frameworks, including <b>
