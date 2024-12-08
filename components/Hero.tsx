@@ -1,31 +1,15 @@
-'use client'
-
-import { useState } from "react";
 import { BackgroundBeams } from "./ui/background-beams";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { FiMoon, FiSun } from "react-icons/fi";
 
 export default function Hero() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
 
-  const toggleTheme = () => {
-    setIsDarkMode(!isDarkMode);
-    // Add logic to apply theme to the body or root element
-    document.body.classList.toggle("dark-mode", !isDarkMode);
-  };
 
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-center px-4">
-      <button
-        onClick={toggleTheme}
-        className="absolute top-4 right-4 p-2 rounded-full bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200 z-20"
-      >
-        {isDarkMode ? <FiSun className="text-2xl" /> : <FiMoon className="text-2xl" />}
-      </button>
-      
-      <h1 className="text-4xl md:text-6xl font-bold mb-2 relative z-10">
+
+      <h1 className="text-4xl md:text-6xl font-bold mb-2 relative z-10 text-center">
         Tanishka Deep
       </h1>
 
@@ -43,7 +27,7 @@ export default function Hero() {
           <MdEmail className="text-2xl" />
         </a>
       </div>
-      <BackgroundBeams className="absolute top-0 left-0 w-full h-full z-0" />
+      <BackgroundBeams className="z-0" />
     </div>
   );
 }
