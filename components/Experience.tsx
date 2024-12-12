@@ -1,24 +1,33 @@
-import React from 'react';
+import React from "react";
+import { WobbleCard } from "./ui/wobble-card";
 
 const Experience: React.FC = () => {
   return (
-    <section className="text-zinc-300 mt-8 mb-24 px-12">
-      <div className="max-w-5xl mx-auto lg:py-8 p-6 lg:px-16 rounded-xl border-neutral-700 border">
-        <h2 className="text-3xl font-bold mb-4 text-center">Experience</h2>
-        <div className="mb-6">
-          <h3 className="text-2xl font-semibold">Larsen & Toubro Defence</h3>
-          <p className="text-lg italic">ML Intern</p>
-          <p className="text-sm text-neutral-400">March 2024 – Sep 2024 | Remote</p>
-          <ul className="list-disc list-inside mt-4 space-y-2 text-base xl:text-lg">
-            <li>Designed and implemented GAN models to generate realistic datasets for predictive maintenance and anomaly detection, simulating real-world equipment conditions.</li>
-            <li>Collaborated with industry experts to validate the effectiveness of synthetic data, refining methodologies, and algorithms for improved performance in predictive maintenance models.</li>
-            <li>Evaluated CentreNet on multi-class PCB datasets and optimized inference times for real-time performance.</li>
-            <li>Developed and optimized Gaussian, Median, and Non-Local Means denoising algorithms in Python and C++.</li>
-            <li>Gained hands-on experience in synthetic data, computer vision, and real-time algorithm optimization for defense applications.</li>
-          </ul>
+    <div className="max-w-6xl mx-auto my-12 px-6 sm:px-16">
+      <WobbleCard containerClassName="bg-blue-900 ">
+        <h2 className="text-3xl font-extrabold mb-4 text-left">Experience</h2>
+
+        <div className="flex justify-between flex-col sm:flex-row text-neutral-300">
+          <div>
+            <h3 className="text-xl font-bold text-white">
+              Larsen & Toubro Defence
+            </h3>
+            <p className="sm:text-lg italic">ML Intern</p>
+          </div>
+          <div>
+            <p className="sm:text-right">March 2024 – Sep 2024</p>
+          </div>
         </div>
-      </div>
-    </section>
+
+        <p className="text-justify mt-4">
+          Developed GAN models for synthetic data generation, optimized
+          CentreNet for real-time PCB analysis, and implemented denoising
+          algorithms in Python and C++. Gained expertise in synthetic data,
+          computer vision, and real-time algorithm optimization for defense
+          applications.
+        </p>
+      </WobbleCard>
+    </div>
   );
 };
 
