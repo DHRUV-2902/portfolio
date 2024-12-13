@@ -22,7 +22,7 @@ export default function Hero() {
 
       <GridBeam className="flex items-center justify-center flex-col max-w-lg h-1/2">
         <div>
-          <h1 className="text-4xl lg:text-6xl font-bold mb-2 relative z-10 text-center font-recoleta">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-2 relative z-10 text-center font-recoleta">
             Tanishka Deep
           </h1>
 

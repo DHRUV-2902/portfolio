@@ -15,15 +15,14 @@ const About: React.FC = () => {
           Technology (CGPA: <b>9.5/10</b>). Skilled in{" "}
           <b>React, Next.js, TypeScript, Python, and Node.js</b>, I create
           scalable, user-friendly web applications. My projects include Regal
-          Estate (real estate platform), Bytes (blogging app) and a modern SaaS landing page.
+          Estate (real estate platform), Bytes (blogging app) and a modern SaaS
+          landing page.
           <br />
-          During my internship at <b>Larsen & Toubro Defence</b>,
-          
-          I gained hands-on experience in synthetic data generation, computer vision, and predictive maintenance, while optimizing algorithms for real-time applications.
-          
-          Passionate about innovation and continuous
-          learning, I bring strong technical skills and problem-solving to every
-          endeavor.{" "}
+          During my internship at <b>Larsen & Toubro Defence</b>, I gained
+          hands-on experience in synthetic data generation, computer vision, and
+          predictive maintenance, while optimizing algorithms for real-time
+          applications. Passionate about innovation and continuous learning, I
+          bring strong technical skills and problem-solving to every endeavor.{" "}
         </p>
       </WobbleCard>
     </div>
