@@ -14,7 +14,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
         <div className="bg-foreground border-neutral-600 border-2 rounded-xl p-4">
           <div className="overflow-hidden rounded-lg">
-            <Link href={"https://regal-estate.vercel.app/"}>
+            <Link href={"https://regal-estate.vercel.app/"} target="_blank">
               <Image
                 src={Regal}
                 alt="Regal Estate"
@@ -24,7 +24,10 @@ const Projects = () => {
           </div>
           <div className="flex justify-between items-center gap-2 pt-4 pb-2 px-3">
             <div className="text-2xl font-bold font-inter">Regal Estate</div>
-            <Link href={"https://github.com/tanishkadeep/Regal-Estate"}>
+            <Link
+              href={"https://github.com/tanishkadeep/Regal-Estate"}
+              target="_blank"
+            >
               <FaGithub className="hover:scale-110 size-6" />
             </Link>
           </div>
@@ -61,7 +64,10 @@ const Projects = () => {
 
         <div className="bg-foreground border-neutral-600 border-2 rounded-xl p-4">
           <div className="overflow-hidden rounded-lg">
-            <Link href={"https://landing-page-rho-hazel.vercel.app/"}>
+            <Link
+              href={"https://landing-page-rho-hazel.vercel.app/"}
+              target="_blank"
+            >
               <Image
                 src={Page}
                 alt="Page"
@@ -74,7 +80,10 @@ const Projects = () => {
               {" "}
               Modern SaaS Landing Page
             </div>
-            <Link href={"https://github.com/tanishkadeep/landing-page"}>
+            <Link
+              href={"https://github.com/tanishkadeep/landing-page"}
+              target="_blank"
+            >
               <FaGithub className="hover:scale-110 size-6" />
             </Link>
           </div>
@@ -102,7 +111,7 @@ const Projects = () => {
 
         <div className="bg-foreground border-neutral-600 border-2 rounded-xl p-4">
           <div className="overflow-hidden rounded-lg">
-            <Link href={"https://bytes-kohl.vercel.app/"}>
+            <Link href={"https://bytes-kohl.vercel.app/"} target="_blank">
               <Image
                 src={Bytes}
                 alt="Bytes"
@@ -112,7 +121,10 @@ const Projects = () => {
           </div>
           <div className="flex justify-between items-center gap-2 pt-4 pb-2 px-3">
             <div className="text-2xl font-bold font-inter">Bytes</div>
-            <Link href={"https://github.com/tanishkadeep/Bytes"}>
+            <Link
+              href={"https://github.com/tanishkadeep/Bytes"}
+              target="_blank"
+            >
               <FaGithub className="hover:scale-110 size-6" />
             </Link>
           </div>

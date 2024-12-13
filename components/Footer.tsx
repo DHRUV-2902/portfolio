@@ -16,6 +16,7 @@ const Footer = () => {
             <Link
               className="flex items-center gap-2 justify-start mb-2  hover:text-white hover:underline"
               href="https://github.com/tanishkadeep"
+              target="_blank"
             >
               <LuGithub className="size-5" />
               <div> tanishkadeep</div>
@@ -24,6 +25,7 @@ const Footer = () => {
             <Link
               className="flex items-center gap-2 justify-start mb-2 hover:text-white hover:underline"
               href="https://x.com/yestanishka"
+              target="_blank"
             >
               <FaXTwitter className="size-5" />
               <div> @yestanishka</div>
@@ -33,6 +35,7 @@ const Footer = () => {
             <Link
               className="flex items-center gap-2 justify-start mb-2  hover:text-white hover:underline flex-wrap"
               href="mailto:tanishkadeep09@gmail.com"
+              target="_blank"
             >
               <MdOutlineEmail className="size-5" />
               <div className="break-all"> tanishkadeep09@gmail.com</div>
@@ -41,6 +44,7 @@ const Footer = () => {
             <Link
               className="flex items-center gap-2 justify-start mb-2  hover:text-white hover:underline"
               href="https://www.linkedin.com/in/tanishkadeep/"
+              target="_blank"
             >
               <FaLinkedinIn className="size-5" />
               <div> Tanishka Deep</div>
