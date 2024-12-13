@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="px-8 md:px-20 sm:px-10 py-12 max-w-6xl mx-auto">
         <div className="flex items-center gap-2 justify-start mb-2.5 font-bold">
           <FaLink className="size-5" />
-          <div className="text-xl"> Connect with me</div>
+          <div className="text-xl xl:text-2xl"> Connect with me</div>
         </div>
         <div className="flex items-center sm:gap-2 justify-center text-lg text-neutral-400 font-medium flex-col sm:flex-row">
           <div className="flex-1 w-full">

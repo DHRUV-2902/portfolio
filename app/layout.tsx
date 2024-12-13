@@ -19,9 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${recoleta.variable}`}>
-        {children}
-      </body>
+      <body className={`${recoleta.variable}`}>{children}</body>
     </html>
   );
 }
