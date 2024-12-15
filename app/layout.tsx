@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
+import { Analytics } from "@vercel/analytics/react"
 
 const recoleta = localFont({
   src: "../public/fonts/Recoleta-Bold.ttf",
@@ -19,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${recoleta.variable}`}>{children}</body>
+      <body className={`${recoleta.variable}`}>{children} <Analytics /></body>
     </html>
   );
 }
