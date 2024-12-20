@@ -207,13 +207,7 @@ const Projects = () => {
               TypeScript
             </div>
             <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
-              Tailwind CSS
-            </div>
-            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
               shadcn/ui
-            </div>
-            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
-              Vercel
             </div>
           </div>
         </div>
