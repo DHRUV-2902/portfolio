@@ -201,6 +201,9 @@ const Projects = () => {
               Google Gemini
             </div>
             <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              Clerk
+            </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
               TypeScript
             </div>
             <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
