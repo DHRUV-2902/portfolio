@@ -13,8 +13,12 @@ import Helix from "@/public/images/cube-helix.png";
 import Pyramid from "@/public/images/pyramid.png";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import MorphingText from "./ui/morphing-text";
+import SparklesText from "./ui/sparkles-text";
 
 export default function Hero() {
+  const texts = ["Full Stack Developer", "ML Enthusiast"];
+
   return (
     <div className="h-screen relative bg-[#0e0e0e] overflow-hidden flex flex-col items-center justify-center px-4">
       <Image
@@ -75,13 +79,14 @@ export default function Hero() {
 
       <GridBeam className="flex items-center justify-center flex-col max-w-lg h-1/2">
         <div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-2 relative z-10 text-center font-recoleta">
-            Tanishka Deep
-          </h1>
-
-          <div className="text-xl lg:text-2xl text-neutral-400 mb-4 relative z-10 font-medium text-center">
-            Full Stack Developer
-          </div>
+          <SparklesText sparklesCount={2}
+            className="text-4xl md:text-5xl lg:text-6xl font-bold mb-2 relative z-10 text-center font-recoleta"
+            text="Tanishka Deep"
+          />
+          <MorphingText
+            texts={texts}
+            className="text-xl lg:text-2xl text-neutral-400 mb-4 relative z-10 font-medium text-center"
+          />
           <div className="flex justify-center items-center gap-4 relative z-10">
             <a
               href="https://github.com/tanishkadeep"

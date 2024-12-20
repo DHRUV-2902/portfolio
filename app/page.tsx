@@ -7,7 +7,7 @@ import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-foreground text-white">
       <div className="mx-auto max-w-screen-2xl">
         <Hero />
         <About />

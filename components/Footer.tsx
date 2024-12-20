@@ -3,10 +3,11 @@ import { FaLink, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import { LuGithub } from "react-icons/lu";
 import { MdOutlineEmail } from "react-icons/md";
 import { SiBuymeacoffee } from "react-icons/si";
+import { GridPatternDashed } from "./ui/GridPatternDashed";
 
 const Footer = () => {
   return (
-    <div className="bg-foreground">
+    <GridPatternDashed>
       <div className="px-8 md:px-20 sm:px-10 py-12 max-w-6xl mx-auto">
         <div className="flex items-center gap-2 justify-start mb-2.5 font-bold">
           <FaLink className="size-5" />
@@ -62,7 +63,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </GridPatternDashed>
   );
 };
 
