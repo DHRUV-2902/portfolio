@@ -12,6 +12,7 @@ import Star from "@/public/images/emojistar.png";
 import Helix from "@/public/images/cube-helix.png";
 import Pyramid from "@/public/images/pyramid.png";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -107,9 +108,12 @@ export default function Hero() {
         </div>
       </GridBeam>
 
-      <div className="absolute bottom-10 mx-auto z-10">
+      <Link
+        href="#about"
+        className="absolute bottom-10 mx-auto z-10 hover:scale-110 transition-transform duration-300"
+      >
         <FaArrowDown className="bg-neutral-800 rounded-full animate-bounce w-8 h-8 p-2" />
-      </div>
+      </Link>
     </div>
   );
 }

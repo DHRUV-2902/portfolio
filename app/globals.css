@@ -26,6 +26,7 @@ body {
   scrollbar-width: none;
   /* Firefox */
   font-family: "DM Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar,
