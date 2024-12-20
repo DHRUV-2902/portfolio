@@ -79,10 +79,8 @@ export default function Hero() {
 
       <GridBeam className="flex items-center justify-center flex-col max-w-lg h-1/2">
         <div>
-          <SparklesText sparklesCount={6}
-            className="text-5xl lg:text-6xl font-bold mb-2 relative z-10 text-center font-recoleta"
-            text="Tanishka Deep"
-          />
+          <h1
+            className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-2 relative z-10 text-center font-recoleta"> Tanishka Deep </h1>
           <MorphingText
             texts={texts}
             className="text-xl lg:text-2xl text-neutral-400 mb-4 relative z-10 font-medium text-center"
