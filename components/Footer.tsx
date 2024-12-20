@@ -2,6 +2,7 @@ import Link from "next/link";
 import { FaLink, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import { LuGithub } from "react-icons/lu";
 import { MdOutlineEmail } from "react-icons/md";
+import { SiBuymeacoffee } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
           <FaLink className="size-5" />
           <div className="text-xl xl:text-2xl"> Connect with me</div>
         </div>
-        <div className="flex items-center sm:gap-2 justify-center text-lg text-neutral-400 font-medium flex-col sm:flex-row">
+        <div className="flex items-start justify-center sm:gap-2 text-lg text-neutral-400 font-medium flex-col sm:flex-row">
           <div className="flex-1 w-full">
             <Link
               className="flex items-center gap-2 justify-start mb-2  hover:text-white hover:underline"
@@ -29,6 +30,15 @@ const Footer = () => {
             >
               <FaXTwitter className="size-5" />
               <div> @yestanishka</div>
+            </Link>
+
+            <Link
+              className="flex items-center gap-2 justify-start mb-2 hover:text-white hover:underline"
+              href="https://buymeacoffee.com/tanishkadeep"
+              target="_blank"
+            >
+              <SiBuymeacoffee className="size-5" />
+              <div> tanishkadeep </div>
             </Link>
           </div>
           <div className="flex-1 w-full">
