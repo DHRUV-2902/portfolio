@@ -60,7 +60,7 @@ const projects = [
     image: Chattr,
     liveLink: "https://chattr-orpin.vercel.app/",
     githubLink: "https://github.com/tanishkadeep/chattr",
-    tags: ["React.js", "ws", "Node.js", "TypeScript"],
+    tags: ["React.js", "ws", "Node.js", "TypeScript", "Render", "Vercel"],
   },
   {
     title: "Bytes",
