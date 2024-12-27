@@ -3,6 +3,7 @@ import Image from "next/image";
 import Regal from "@/public/images/regal.png";
 import Bytes from "@/public/images/bytes.png";
 import ContiqAI from "@/public/images/contiqai.png";
+import Chattr from "@/public/images/chattr.png";
 import Page from "@/public/images/page.png";
 import Link from "next/link";
 
@@ -51,6 +52,15 @@ const projects = [
     liveLink: "https://landing-page-rho-hazel.vercel.app/",
     githubLink: "https://github.com/tanishkadeep/landing-page",
     tags: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
+  },
+  {
+    title: "Chattr",
+    description:
+      "An anonymous chat application enabling private, temporary conversations between users with real-time communication.",
+    image: Chattr,
+    liveLink: "https://chattr-orpin.vercel.app/",
+    githubLink: "https://github.com/tanishkadeep/chattr",
+    tags: ["React.js", "ws", "Node.js", "TypeScript"],
   },
   {
     title: "Bytes",
