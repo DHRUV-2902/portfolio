@@ -1,84 +1,91 @@
 import { FaGithub } from "react-icons/fa6";
 import Image from "next/image";
-import Regal from "@/public/images/regal.png";
-import Bytes from "@/public/images/bytes.png";
+import Regal from "@/public/images/Blood.png";
+import Bytes from "@/public/images/port.png";
 import ContiqAI from "@/public/images/contiqai.png";
 import Chattr from "@/public/images/chattr.png";
-import Page from "@/public/images/page.png";
+import Stream from "@/public/images/stream.png";
+import Page from "@/public/images/notes.png";
+import Bill from "@/public/images/bill.png";
 import Link from "next/link";
 
 const projects = [
   {
-    title: "Regal Estate",
-    description:
-      "A secure full-stack real estate app with dynamic property listings, detailed property pages, and landlord contact features, enhancing user engagement and efficiency.",
+   title: "BloodNexus-Studio Website",
+description:
+  "A professionally designed landing page for BloodNexus Studio, built to showcase the brand, services, and improve client engagement with responsive and modern UI.",
     image: Regal,
-    liveLink: "https://regal-estate.vercel.app/",
+    liveLink: "https://bloodnexusstudio.in/",
     githubLink: "https://github.com/tanishkadeep/Regal-Estate",
     tags: [
-      "MERN",
-      "Zod",
-      "JWT",
+      "Next js ",
+      "gasp",
       "TypeScript",
-      "Firebase",
-      "bcryptjs",
       "Tailwind CSS",
+      "React js",
     ],
   },
 
   {
-    title: "ContiqAI",
+    title: "StreamVibe",
     description:
-      "AI-powered tool to quickly create high-quality content for social media.",
-    image: ContiqAI,
-    liveLink: "https://contiq-ai.vercel.app/",
-    githubLink: "https://github.com/tanishkadeep/contiqAI",
+      "StreamVibe is the best streaming experience for watching your favorite movies and shows on demand, anytime, anywhere. ",
+    image: Stream,
+    liveLink: "https://streaming-ge5fiq3a1-dhruv2902s-projects.vercel.app/",
+    githubLink: "https://github.com/DHRUV-2902/Streaming",
     tags: [
-      "Next.js",
-      "PostgreSQL",
-      "Prisma",
-      "Google Gemini",
-      "Clerk",
-      "TypeScript",
-      "shadcn/ui",
-    ],
+  "React",
+  "Vite",
+  "Tailwind CSS",
+  "Material Tailwind",
+  "Framer Motion",
+  "Font Awesome",
+  "JavaScript",
+],
   },
 
   {
-    title: "Modern SaaS Landing Page",
+    title: "Electricity Billing System",
     description:
-      "A modern SaaS landing page using Tailwind CSS, TypeScript, Next.js, and Framer Motion to create a visually appealing user interface with engaging animations.",
-    image: Page,
-    liveLink: "https://landing-page-rho-hazel.vercel.app/",
-    githubLink: "https://github.com/tanishkadeep/landing-page",
-    tags: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
+      "Electricity Billing System is a software-based application developed in Java programming language. The main objective is to manage the details of Electricity Bill, Connections, Store Record.",
+    image: Bill,
+    liveLink: "https://github.com/DHRUV-2902/Electricity_Management_System",
+    githubLink: "https://github.com/DHRUV-2902/Electricity_Management_System",
+    tags: [
+  "Java",
+  "Java Swing",
+  "MySQL",
+  "JDBC",
+  "Desktop Application",
+  "Object-Oriented Programming",
+  "CRUD Operations",
+  "Billing System"
+]
   },
   {
-    title: "Chattr",
+    title: "PortFolio ",
     description:
-      "An anonymous chat application enabling private, temporary conversations between users with real-time communication.",
-    image: Chattr,
+     "A personal portfolio website to showcase my projects, experience, and skills. Built with React and styled using Tailwind CSS for a responsive and visually appealing design.",
+    image: Bytes,
     liveLink: "https://chattr-orpin.vercel.app/",
     githubLink: "https://github.com/tanishkadeep/chattr",
-    tags: ["React.js", "ws", "Node.js", "TypeScript", "Render", "Vercel"],
+    tags: ["React.js", "ws", "Node.js", "TypeScript", "Vercel"],
   },
   {
-    title: "Bytes",
-    description:
-      "A full-stack blogging app inspired by Medium, with JWT authentication, TypeScript and Zod validation, and scalable deployment via Vercel and Cloudflare Workers.",
-    image: Bytes,
-    liveLink: "https://bytes-kohl.vercel.app/",
-    githubLink: "https://github.com/tanishkadeep/Bytes",
-    tags: [
-      "React.js",
-      "PostgreSQL",
-      "Prisma",
-      "Hono",
-      "TypeScript",
-      "Cloudflare Workers",
-      "Vercel",
-      "Zod",
-    ],
+    title: "Notes App",
+description:
+  "A simple and efficient note-taking app built with React.js, Vite, Redux Toolkit, and ShadCN. It enables users to create, update, and delete todos with a clean and responsive UI. Smooth navigation is handled using React Router, and the app is optimized for fast performance and modern UX.",
+image: Page, // Replace 'Page' with your actual image import or asset
+liveLink: "https://your-notesapp.vercel.app/", // Replace with the actual live URL
+githubLink: "https://github.com/DHRUV-2902/Notes-App", // Replace with your actual repo link
+tags: [
+  "React.js",
+  "Vite",
+  "Redux Toolkit",
+  "React Router",
+  "ShadCN",
+  "JavaScript"
+]
   },
 ];
 

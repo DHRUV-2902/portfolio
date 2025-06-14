@@ -8,32 +8,32 @@ import { GridPatternDashed } from "./ui/GridPatternDashed";
 const socials = [
   {
     name: "Github",
-    href: "https://github.com/tanishkadeep",
-    displayText: "tanishkadeep",
+    href: "https://github.com/DHRUV-2902",
+    displayText: "DhurvMore",
     icon: LuGithub,
   },
   {
     name: "Twitter",
-    href: "https://x.com/yestanishka",
-    displayText: "@yestanishka",
+    href: "https://x.com/Dhruv_2917",
+    displayText: "@Dhruv_2917",
     icon: FaXTwitter,
   },
-  {
-    name: "Buy Me a Coffee",
-    href: "https://buymeacoffee.com/tanishkadeep",
-    displayText: "tanishkadeep",
-    icon: SiBuymeacoffee,
-  },
+  // {
+  //   name: "Buy Me a Coffee",
+  //   href: "https://buymeacoffee.com/tanishkadeep",
+  //   displayText: "tanishkadeep",
+  //   icon: SiBuymeacoffee,
+  // },
   {
     name: "Email",
-    href: "mailto:tanishkadeep09@gmail.com",
-    displayText: "tanishkadeep09@gmail.com",
+    href: "mailto:mdhruv2902@gmail.com",
+    displayText: "mdhruv2902@gmail.com",
     icon: MdOutlineEmail,
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/tanishkadeep/",
-    displayText: "Tanishka Deep",
+    href: "https://www.linkedin.com/in/dhruv-more-4014a3170/",
+    displayText: "Dhruv more ",
     icon: FaLinkedinIn,
   },
 ];

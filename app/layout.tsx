@@ -9,7 +9,7 @@ const recoleta = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Tanishka Deep",
+  title: "Dhruv More",
   description: "Portfolio",
 };
 
