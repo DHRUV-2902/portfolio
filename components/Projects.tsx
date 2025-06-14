@@ -67,7 +67,7 @@ description:
     description:
      "A personal portfolio website to showcase my projects, experience, and skills. Built with React and styled using Tailwind CSS for a responsive and visually appealing design.",
     image: Bytes,
-    liveLink: "https://portfoliowebsitedhruv.netlify.app/",
+    liveLink: "https://portfolio-fljs.vercel.app/",
     githubLink: "https://github.com/DHRUV-2902/portfolio",
     tags: ["React.js", "ws", "Node.js", "TypeScript", "Vercel"],
   },
