@@ -76,7 +76,7 @@ description:
 description:
   "A simple and efficient note-taking app built with React.js, Vite, Redux Toolkit, and ShadCN. It enables users to create, update, and delete todos with a clean and responsive UI. Smooth navigation is handled using React Router, and the app is optimized for fast performance and modern UX.",
 image: Page, // Replace 'Page' with your actual image import or asset
-liveLink: "notes-app-khaki-omega.vercel.app", // Replace with the actual live URL
+liveLink: "https://notes-app-91eg.vercel.app/", // Replace with the actual live URL
 githubLink: "https://github.com/DHRUV-2902/Notes-App", // Replace with your actual repo link
 tags: [
   "React.js",
